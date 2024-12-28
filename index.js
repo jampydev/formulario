@@ -52,11 +52,11 @@ form.addEventListener('submit', (e) => {
         // Mostrar el modal
         modal.style.display = 'flex';
 
-        // Mantener el modal durante 4 segundos y enviar el formulario
+        // Mantener el modal durante 5 segundos y enviar el formulario
         setTimeout(() => {
             modal.style.display = 'none'; // Ocultar el modal
             form.submit(); // Enviar el formulario manualmente
-        }, 4000);
+        }, 5000);
     } else {
         // Mostrar mensajes de error si el formulario no es válido
         form.reportValidity();
