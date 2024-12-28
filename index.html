@@ -16,48 +16,42 @@
 <body>
 
 
-    <form class="form-container" action="https://formsubmit.co/jampierdev@gmail.com" method="POST">
+  <form class="form-container" action="https://formsubmit.co/jampierdev@gmail.com" method="POST">
 
-        <!-- Título del formulario -->
-        <h2>Contáctanos <i class="fas fa-envelope"></i></h2>
+    <h2>Contáctanos <i class="fas fa-envelope"></i></h2>
 
-        <!-- Campo de nombre -->
-        <label for="name">Tu Nombre y Apellidos:</label>
-        <input 
-            type="text" 
-            name="name" 
-            id="name" 
-            required 
-            maxlength="100">
-        
-        <!-- Campo de correo electrónico -->
-        <label for="email">Tu Correo Electrónico:</label>
-        <input 
-            type="email" 
-            name="email" 
-            id="email" 
-            placeholder="@gmail.com" 
-            required
-            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
-            maxlength="100">
-        
-        <!-- Campo de mensaje -->
-        <label for="mensage">Mensaje:</label>
-        <textarea 
-            name="mensage" 
-            id="mensage" 
-            rows="5" 
-            placeholder="Escribe tu mensaje aquí..." 
-            required 
-            maxlength="500">
-        </textarea>
+    <label for="name">Tu Nombre y Apellidos:</label>
+    <input 
+        type="text" 
+        name="name" 
+        id="name" 
+        required 
+        maxlength="100">
+    
+    <label for="email">Tu Correo Electrónico:</label>
+    <input 
+        type="email" 
+        name="email" 
+        id="email" 
+        placeholder="@gmail.com" 
+        required
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+        maxlength="100">
+    
+    <label for="mensage">Mensaje:</label>
+    <textarea 
+        name="mensage" 
+        id="mensage" 
+        rows="5" 
+        placeholder="Escribe tu mensaje aquí..." 
+        required 
+        maxlength="500"></textarea>
 
-        <!-- Campo oculto para evitar captcha -->
-        <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_captcha" value="false">
 
-        <!-- Botón de envío -->
-        <button type="submit" class="btn-submit">Enviar</button>
-    </form>
+    <button type="submit" class="btn-submit">Enviar</button>
+</form>
+
     
 
 
