@@ -12,8 +12,10 @@
 
 /* Asegúrate de que la clase .fade-in esté definida con una animación */
 .fade-in {
+    
   opacity: 0; /* Inicia invisible */
-  animation: fadeInEffect 2s forwards; /* Aplica la animación fadeInEffect en 2 segundos */
+  animation: fadeInEffect 5s forwards; /* Aplica la animación fadeInEffect en 2 segundos */
+    
 }
 
 /* Define la animación de desvanecimiento */
