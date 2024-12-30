@@ -91,12 +91,14 @@ body {
 
 
 /* Estilo para el textarea para evitar desbordamientos */
-.form-container textarea { 
-    
-overflow: hidden;
-resize: both;
-    
+
+textarea {
+  resize: none; /* Desactiva el cambio de tamaño */
+  overflow: auto; /* Permite que el contenido tenga scroll si excede el tamaño */
+  max-width: 100%; /* Limita el ancho máximo al tamaño del contenedor */
+  box-sizing: border-box; /* Asegura que padding y border estén incluidos en el tamaño */
 }
+
 
 
 
