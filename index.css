@@ -93,7 +93,7 @@ body {
 /* Estilo para el textarea para evitar desbordamientos */
 .form-container textarea { 
     
-overflow: auto; 
+overflow: hidden;
 resize: both;
     
 }
