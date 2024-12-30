@@ -88,6 +88,18 @@ body {
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
+
+
+/* Estilo para el textarea para evitar desbordamientos */
+.form-container textarea { 
+    
+overflow: auto; 
+resize: both;
+    
+}
+
+
+
 /* Botón */
 .btn-submit {
     background: #007bff;
