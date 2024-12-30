@@ -80,11 +80,8 @@ body {
     border-radius: 5px;
     font-size: 1em;
     color: #333;
-    resize: vertical; /* Permitir solo redimensionamiento vertical */
-    max-width: 100%; /* Limitar el ancho máximo al del contenedor */
-    overflow: auto; /* Mostrar scroll si el contenido supera el espacio */
-    box-sizing: border-box; /* Incluir padding y bordes en el tamaño total */
 }
+
 
 .form-container input:focus,
 .form-container textarea:focus {
@@ -94,7 +91,16 @@ body {
 }
 
 
+/* Propiedades específicas para el textarea */
 
+.form-container textarea {
+    
+    resize: vertical; /* Permitir solo redimensionamiento vertical */
+    max-width: 100%; /* Limitar el ancho máximo al del contenedor */
+    overflow: auto; /* Mostrar scroll si el contenido supera el espacio */
+    box-sizing: border-box; /* Incluir padding y bordes en el tamaño total */
+    
+}
 
 
 /* Botón */
